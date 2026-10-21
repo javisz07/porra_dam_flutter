@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:porra_dam/bienvenida/pantalla_bienvenida.dart';
+import 'package:porra_dam/pantallas/bienvenida/pantalla_bienvenida.dart';
 
 void main() {
   runApp(const MainApp());

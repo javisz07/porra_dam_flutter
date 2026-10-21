@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:porra_dam/pantallas/pantalla_jornada.dart';
+import 'package:porra_dam/pantallas/jornada/pantalla_jornada.dart';
 
 class PantallaBienvenida extends StatefulWidget {
   const PantallaBienvenida({
@@ -21,7 +21,7 @@ class _PantallaBienvenida extends State<PantallaBienvenida> {
       fit: StackFit.expand,
       children: [
         // En el stack se van apilando los widgets desde el primero al último
-        Image.asset('../assets/images/fondo.webp', fit: BoxFit.cover),
+        Image.asset('../assets/images/fondo.webp', fit: BoxFit.cover, alignment: Alignment.bottomCenter),
 
         const DecoratedBox(
           decoration: BoxDecoration(
