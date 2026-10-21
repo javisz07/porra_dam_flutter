@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:porra_dam/pantallas/pantalla_jornada.dart';
 
 class PantallaBienvenida extends StatefulWidget {
   const PantallaBienvenida({
@@ -169,7 +170,12 @@ class _PantallaBienvenida extends State<PantallaBienvenida> {
                             padding: const EdgeInsets.symmetric(vertical: 16),
                           ),
                           onPressed: () {
-
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const PantallaJornada()
+                                ),
+                            );
                           }, 
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center, //alinear horizontalmente al medio
