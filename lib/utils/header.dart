@@ -43,6 +43,7 @@ class HeaderPorra extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "grotesk",
                   fontSize: 15,
+                  fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
@@ -51,6 +52,7 @@ class HeaderPorra extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: "grotesk",
                   fontSize: 15,
+                  fontWeight: FontWeight.bold,
                   color: Color.fromARGB(255, 4, 136, 11),
                 ),
               ),

@@ -31,15 +31,16 @@ class Principal extends State<PantallaPrincipal> {
         onTap: _cambiar,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.calendar_today_outlined),
             label: "Jornada"
             ),
+
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.sports_soccer),
             label: "Resultados"
             ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.leaderboard),
             label: "Clasificaciones"
             )
         ],

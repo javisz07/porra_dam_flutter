@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:porra_dam/pantallas/bienvenida/pantalla_bienvenida.dart';
-import 'package:porra_dam/utils/pantalla_principal.dart'; // Importa la pantalla principal
 void main() {
   runApp(const MainApp());
 }

@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:porra_dam/pantallas/jornada/pantalla_jornada.dart';
 import 'package:porra_dam/utils/pantalla_principal.dart';
 
 class PantallaBienvenida extends StatefulWidget {
